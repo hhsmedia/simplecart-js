@@ -1170,7 +1170,7 @@
 						});
 
 						// add the options to the description
-						data['item_options_' + counter] = options_list.join(", ");
+						data['item_options_' + counter] = "{"+options_list.join(",")+"}";
 					});
 
 
