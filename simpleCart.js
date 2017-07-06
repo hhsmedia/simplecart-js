@@ -1165,7 +1165,7 @@
 								if (field_name === attr) { send = false; }
 							});
 							if (send) {
-								options_list.push(attr + ": " + val);
+								options_list.push("\"" + attr + "\":\"" + val + "\"");
 							}
 						});
 
